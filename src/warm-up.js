@@ -20,8 +20,8 @@ var pages = 300;
 // Reassign (not initialize) your "pages" variable from above. An editor came around and
 // condensed the book, use a built in math operator to make the page count a quarter
 // of what it currently is 
-// console.log(Math.round(pages));
-pages = 75
+pages = 300 / 4
+console.log(pages);
 
 
 // Initialize a new variable "movie", but leave it undefined
@@ -46,7 +46,7 @@ var isFavorite = false;
 // assign a boolean value to this variable. If "pages" is less than 25, the
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
-var isShortStory = 75 < 25;
+var isShortStory = pages < 25;
 console.log(isShortStory);
 
 
