@@ -27,11 +27,11 @@ for (var i = 0; i < shelf.length; i++) {
 // scan shelf and return if title is on shelf
 function searchShelf(shelf, checkTitle){
   for (var i = 0; i < shelf.length; i++) {
-    if (shelf[1].title ===  checkTitle){
-    return true } else {
-      return false
-    }
-  }
+    if (shelf[i].title ===  checkTitle){
+    return true
+  } 
+}
+  return false
 }
 
   
